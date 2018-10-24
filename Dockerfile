@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 ENV LANG=C.UTF-8
 
-# Common packages
+# Common packages 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         software-properties-common \
